@@ -1,0 +1,18 @@
+CMPT 383 (Fall 2010): Final Assignment - Travesty in Python
+File: final.py
+Naoya Makino
+301117541
+nmakino@sfu.ca
+Dec 3rd, 2010
+http://www.cs.sfu.ca/CC/383/ted/383-10-3/Final.html
+
+Description
+
+Implement the algorithm for the Travesty assignment (http://www.cs.sfu.ca/CC/383/ted/383-10-3/Travesty.html) in Python. Unless specified differently in this document, all requirements for the previous assignment apply in this. However, I have changed some details of input and output. 
+
+Input format
+
+Your program should take three command-line arguments. The first argument should be the name of the corpus file, the second argument should be the number of travesty sentences to generate, and the third argument indicates which type of sentence that you should generate (a value of '1' specifies Type 1 sentences and '2' specifies Type 2 sentences):
+
+python final.py corpus.txt 5 1
+
